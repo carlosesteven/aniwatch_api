@@ -15,7 +15,7 @@ import { logger } from "hono/logger";
 import { serve } from "@hono/node-server";
 import { serveStatic } from "@hono/node-server/serve-static";
 
-import pkgJson from "../package.json" with { type: "json" };
+import pkgJson from "../package.json" assert { type: "json" };
 import { errorHandler, notFoundHandler } from "./config/errorHandler.js";
 import type { AniwatchAPIVariables } from "./config/variables.js";
 
