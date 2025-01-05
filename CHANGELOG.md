@@ -1,3 +1,12 @@
+## [3.0.2](https://github.com/ghoshRitesh12/aniwatch-api/compare/v3.0.1...v3.0.2) (2025-01-05)
+
+
+### Bug Fixes
+
+* update index ([32035af](https://github.com/ghoshRitesh12/aniwatch-api/commit/32035af95432a189c74f25f3af961677e8e21c2a))
+
+
+
 ## [3.0.1](https://github.com/ghoshRitesh12/aniwatch-api/compare/v3.0.0...v3.0.1) (2025-01-05)
 
 
