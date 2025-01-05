@@ -1,3 +1,12 @@
+## [3.0.3](https://github.com/ghoshRitesh12/aniwatch-api/compare/v3.0.2...v3.0.3) (2025-01-05)
+
+
+### Bug Fixes
+
+* json import ([fecd254](https://github.com/ghoshRitesh12/aniwatch-api/commit/fecd254bc4d7319b84de5e90f87079f2f140809a))
+
+
+
 ## [3.0.2](https://github.com/ghoshRitesh12/aniwatch-api/compare/v3.0.1...v3.0.2) (2025-01-05)
 
 
