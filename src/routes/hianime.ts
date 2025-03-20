@@ -177,6 +177,18 @@ hianimeRouter.get("/episode/servers", async (c) => {
     cacheConfig.duration
   );
 
+  if (data.sub && data.sub.length > 0) {
+    data.sub.reverse();
+  }
+
+  if (data.dub && data.dub.length > 0) {
+    data.dub.reverse();
+  }
+
+  if (data.raw && data.raw.length > 0) {
+    data.raw.reverse();
+  }
+
   return c.json({ success: true, data }, { status: 200 });
 });
 
