@@ -182,7 +182,7 @@ hianimeRouter.get("/episode/servers", async (c) => {
         cacheConfig.duration
     );
 
-    return c.json({ status: 200, data }, { status: 200 });
+    return c.json({ success: true, status: 200, data }, { status: 200 });
 });
 
 // episodeId=steinsgate-3?ep=230
