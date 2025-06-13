@@ -206,7 +206,7 @@ hianimeRouter.get("/episode/sources", async (c) => {
         cacheConfig.duration
     );
 
-    return c.json({ status: 200, data }, { status: 200 });
+    return c.json({ status: 200, success: true, data }, { status: 200 });
 });
 
 // /api/v2/hianime/anime/{anime-id}/episodes
