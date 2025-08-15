@@ -3,7 +3,8 @@ import { logger as honoLogger } from "hono/logger";
 import { log } from "../config/logger.js";
 
 export const logging: MiddlewareHandler = honoLogger(
-    (msg: string, ...rest: unknown[]) => {
-        log.info(msg, ...rest);
-    }
+  (msg: string, ...rest: any[]) => {
+    // usa apply para esquivar el check del spread tuple
+    (log.info as any).apply(log, [{}, msg, ...rest]);
+  }
 );
